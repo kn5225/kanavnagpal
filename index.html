@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Data & AI Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">YN</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal delay-1">Your <em>Name</em></h1>
+      <p class="hero-tagline reveal delay-2">Data Scientist & AI Engineer crafting<br/>intelligent systems with purpose.</p>
+      <div class="hero-cta reveal delay-3">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-img-frame">
+            <div class="about-img-placeholder">
+              <span>Your Photo</span>
+            </div>
+          </div>
+          <div class="about-tag tag-1">Open to Opportunities</div>
+          <div class="about-tag tag-2">📍 Your City</div>
+        </div>
+        <div class="about-text reveal delay-1">
+          <p class="section-label">About Me</p>
+          <h2>Turning complex data into <em>clear insight</em></h2>
+          <p class="body-text">I'm a data scientist and AI practitioner with a passion for building systems that don't just process data — they understand it. From exploratory analysis to production-ready ML pipelines, I bring rigor and creativity to every project.</p>
+          <p class="body-text">When I'm not training models, you'll find me exploring new datasets, contributing to open source, or brewing a very serious cup of coffee.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">12</span>
+              <span class="stat-label">Projects Shipped</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5</span>
+              <span class="stat-label">Domains Covered</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Toolkit</p>
+        <h2>Skills & <em>Technologies</em></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal delay-1">
+          <div class="skill-icon">🧠</div>
+          <h3>Machine Learning</h3>
+          <div class="skill-tags">
+            <span>scikit-learn</span><span>XGBoost</span><span>LightGBM</span><span>PyTorch</span><span>TensorFlow</span>
+          </div>
+        </div>
+        <div class="skill-card reveal delay-2">
+          <div class="skill-icon">🤖</div>
+          <h3>Generative AI & LLMs</h3>
+          <div class="skill-tags">
+            <span>LangChain</span><span>OpenAI API</span><span>RAG</span><span>Fine-tuning</span><span>Prompt Eng.</span>
+          </div>
+        </div>
+        <div class="skill-card reveal delay-3">
+          <div class="skill-icon">📊</div>
+          <h3>Data & Analytics</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>pandas</span><span>SQL</span><span>Spark</span><span>dbt</span>
+          </div>
+        </div>
+        <div class="skill-card reveal delay-1">
+          <div class="skill-icon">☁️</div>
+          <h3>Cloud & MLOps</h3>
+          <div class="skill-tags">
+            <span>AWS</span><span>Docker</span><span>MLflow</span><span>Airflow</span><span>CI/CD</span>
+          </div>
+        </div>
+        <div class="skill-card reveal delay-2">
+          <div class="skill-icon">📈</div>
+          <h3>Visualization</h3>
+          <div class="skill-tags">
+            <span>Tableau</span><span>Plotly</span><span>D3.js</span><span>Streamlit</span><span>Matplotlib</span>
+          </div>
+        </div>
+        <div class="skill-card reveal delay-3">
+          <div class="skill-icon">🔬</div>
+          <h3>Research & Other</h3>
+          <div class="skill-tags">
+            <span>A/B Testing</span><span>Statistics</span><span>Git</span><span>R</span><span>LaTeX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Portfolio</p>
+        <h2>Featured <em>Projects</em></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal">
+          <div class="project-meta">
+            <span class="project-type">LLM / RAG</span>
+            <span class="project-year">2024</span>
+          </div>
+          <h3>AI Research Assistant</h3>
+          <p>Built a retrieval-augmented generation system to query internal documents using GPT-4 and vector embeddings. Reduced research time by 60% in user testing.</p>
+          <div class="project-stack">
+            <span>Python</span><span>LangChain</span><span>Pinecone</span><span>FastAPI</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-pill">GitHub →</a>
+            <a href="#" class="link-pill">Demo →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-meta">
+            <span class="project-type">Predictive ML</span>
+            <span class="project-year">2024</span>
+          </div>
+          <h3>Customer Churn Predictor</h3>
+          <p>End-to-end churn prediction pipeline with explainability via SHAP values. Deployed as a REST API serving 10k daily predictions.</p>
+          <div class="project-stack">
+            <span>XGBoost</span><span>SHAP</span><span>Docker</span><span>AWS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-pill">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-meta">
+            <span class="project-type">NLP</span>
+            <span class="project-year">2023</span>
+          </div>
+          <h3>Sentiment Dashboard</h3>
+          <p>Real-time social media sentiment analysis dashboard tracking brand mentions across platforms using fine-tuned BERT.</p>
+          <div class="project-stack">
+            <span>BERT</span><span>Streamlit</span><span>Kafka</span><span>Plotly</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-pill">GitHub →</a>
+            <a href="#" class="link-pill">Live →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="project-meta">
+            <span class="project-type">Computer Vision</span>
+            <span class="project-year">2023</span>
+          </div>
+          <h3>Medical Image Classifier</h3>
+          <p>CNN-based classifier for X-ray anomaly detection achieving 94% accuracy, trained on a custom curated dataset of 20k images.</p>
+          <div class="project-stack">
+            <span>PyTorch</span><span>ResNet</span><span>OpenCV</span><span>GCP</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-pill">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Career</p>
+        <h2>Work <em>Experience</em></h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <h3>Senior Data Scientist</h3>
+                <p class="tl-company">Company Name</p>
+              </div>
+              <span class="tl-date">2022 — Present</span>
+            </div>
+            <p class="tl-desc">Led ML initiatives across three product lines, built and deployed production models, and mentored a team of two junior analysts. Drove a 25% improvement in forecasting accuracy.</p>
+            <div class="tl-tags"><span>Python</span><span>AWS</span><span>MLflow</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <h3>Data Scientist</h3>
+                <p class="tl-company">Previous Company</p>
+              </div>
+              <span class="tl-date">2020 — 2022</span>
+            </div>
+            <p class="tl-desc">Developed NLP pipelines for customer feedback analysis and built reporting dashboards adopted by 50+ stakeholders.</p>
+            <div class="tl-tags"><span>NLP</span><span>Tableau</span><span>SQL</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="tl-header">
+              <div>
+                <h3>AI Research Intern</h3>
+                <p class="tl-company">Research Lab / University</p>
+              </div>
+              <span class="tl-date">2019 — 2020</span>
+            </div>
+            <p class="tl-desc">Contributed to research on graph neural networks for drug discovery. Co-authored a paper accepted at a top-tier ML conference.</p>
+            <div class="tl-tags"><span>PyTorch</span><span>GNNs</span><span>Research</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <p class="section-label">Let's Talk</p>
+        <h2>Ready to build something <em>remarkable</em> together?</h2>
+        <p class="contact-sub">Whether it's a full-time role, a freelance project, or just a great conversation about data and AI — my inbox is open.</p>
+        <a href="mailto:your@email.com" class="btn btn-primary btn-large">Say Hello →</a>
+        <div class="social-links">
+          <a href="#" class="social-link">LinkedIn</a>
+          <a href="#" class="social-link">GitHub</a>
+          <a href="#" class="social-link">Kaggle</a>
+          <a href="#" class="social-link">Twitter / X</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed & built by Your Name · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
