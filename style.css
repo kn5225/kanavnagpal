@@ -544,7 +544,7 @@ section { padding: 7rem 0; }
   padding-bottom: 1rem
 }
 #contact .section-label { color: var(--ochre); }
-#contact h2 { color: var(--white); margin-bottom: 1.2rem; line-height: 1.5; overflow: visible; }
+#contact h2 { color: var(--white); margin-bottom: 1.2rem; line-height: 1.5; font-family: var(--font-body)}
 .contact-sub {
   color: rgba(255,255,255,0.55);
   font-size: 1rem;
