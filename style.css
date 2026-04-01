@@ -35,7 +35,7 @@ body {
 ::selection { background: var(--terracotta); color: var(--white); }
 
 /* ─── TYPOGRAPHY ────────────────────────────────────────── */
-h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.25; padding-bottom: 0.05em; }
 h1 { font-size: clamp(3rem, 8vw, 7rem); font-weight: 800; }
 h2 { font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 700; }
 h3 { font-size: 1.2rem; font-weight: 700; }
@@ -51,6 +51,8 @@ p { color: var(--muted); }
   color: var(--terracotta);
   margin-bottom: 0.75rem;
   display: block;
+  overflow: visible;
+  padding-bottom: 0.1em;
 }
 
 .body-text { font-size: 1rem; line-height: 1.8; margin-bottom: 1rem; }
@@ -213,6 +215,8 @@ section { padding: 7rem 0; }
 .hero-name {
   margin-bottom: 1.2rem;
   color: var(--ink);
+  overflow: visible;
+  line-height: 1.3;
 }
 .hero-tagline {
   font-size: clamp(1rem, 2.5vw, 1.25rem);
@@ -266,6 +270,7 @@ section { padding: 7rem 0; }
   background: var(--sand);
   border: 3px solid var(--sand);
   box-shadow: 12px 12px 0 var(--terracotta);
+  isolation: isolate;
 }
 .about-img-placeholder {
   width: 100%; height: 100%;
