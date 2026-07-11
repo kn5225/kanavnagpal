@@ -448,6 +448,27 @@ section { padding: 7rem 0; }
   color: var(--white);
 }
 
+.video-container {
+  width: 100%;
+  max-width: 800px; /* Limits the maximum width to keep the terminal readable */
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Adds a subtle dark theme pop */
+  background: #1a1a1a; /* Prevents flashing white while loading */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  
+  /* Critical for terminal text: prevents the browser from blurring pixels during scaling */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
 /* ─── EXPERIENCE ────────────────────────────────────────── */
 #experience { background: var(--warm-bg); }
 .timeline { position: relative; padding-left: 2rem; }
