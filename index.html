@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kanav Nagpal - Data, Web Dev, and AI Portfolio</title>
+  <title>Kanav Nagpal - Data, Web Dev, AI, and Hardware Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -36,7 +36,7 @@
     <div class="hero-content">
       <p class="hero-eyebrow reveal">Hello, I'm</p>
       <h1 class="hero-name reveal delay-1">Kanav <em>Nagpal</em></h1>
-      <p class="hero-tagline reveal delay-2">Data Scientist, Web Developer, & AI Engineer crafting intelligent systems for a purpose.</p>
+      <p class="hero-tagline reveal delay-2">Data Scientist, Web Developer, & AI and Hardware Engineer crafting intelligent systems for a purpose.</p>
       <div class="hero-cta reveal delay-3">
         <a href="#projects" class="btn btn-primary">View My Work</a>
         <a href="#contact" class="btn btn-ghost">Get in Touch</a>
@@ -55,17 +55,17 @@
         <div class="about-text reveal delay-1">
           <p class="section-label">About Me</p>
           <h2>Turning complex data into <em>clear insight</em></h2>
-          <p class="body-text">I'm a data/AI scientist and Web Developer with a passion for building systems that don't just process data, but understand it. From exploratory analysis to production-ready ML pipelines, I bring rigor and creativity to every project.</p>
-          <p class="body-text">When I'm not making websites or training models, you'll find me exploring new languages and frameworks, contributing to open source projects, or playing a serious game of chess (and losing).</p>
+          <p class="body-text">I'm a data/AI scientist and Web Developer who also builds embedded hardware, with a passion for building systems that don't just process data, but understand it. From exploratory analysis to production-ready ML pipelines, I bring rigor and creativity to every project.</p>
+          <p class="body-text">When I'm not making websites or training models, you'll find me exploring new languages and frameworks or playing a serious game of chess (and losing).</p>
           <p>📍Hopkinton, MA</p>
           <div class="about-stats">
             <div class="stat">
-              <span class="stat-num">2+</span>
-              <span class="stat-label">Years Experience</span>
+              <span class="stat-num">2</span>
+              <span class="stat-label">Research Groups</span>
             </div>
             <div class="stat">
-              <span class="stat-num">5+</span>
-              <span class="stat-label">Projects Shipped</span>
+              <span class="stat-num">6</span>
+              <span class="stat-label">Projects Built</span>
             </div>
           </div>
         </div>
@@ -85,14 +85,14 @@
           <div class="skill-icon">🧠</div>
           <h3>Machine Learning</h3>
           <div class="skill-tags">
-            <span>scikit-learn</span><span>OpenCV</span><span>Keras</span><span>TensorFlow</span>
+            <span>PyTorch</span><span>scikit-learn</span><span>OpenCV</span><span>Keras</span><span>TensorFlow</span>
           </div>
         </div>
         <div class="skill-card reveal delay-3">
           <div class="skill-icon">📊</div>
           <h3>Data & Analytics</h3>
           <div class="skill-tags">
-            <span>Python</span><span>pandas</span><span>MATLAB</span><span>R</span><span>MySQL/PostGreSQL</span><span>Supabase</span>
+            <span>Python</span><span>pandas</span><span>MATLAB</span><span>MySQL/PostgreSQL</span><span>Supabase</span>
           </div>
         </div>
         <div class="skill-card reveal delay-2">
@@ -106,7 +106,7 @@
           <div class="skill-icon">🔬</div>
           <h3>Scripting, Hardware, and Other</h3>
           <div class="skill-tags">
-            <span>AutoHotKey</span><span>Command Line(Linux/Windows)</span><span>Arduino IDE</span><span>STM32 Microcontrollers</span><span>Microsoft Office</span><span>Google Workspace</span>
+            <span>C++</span><span>Verilog</span><span>AutoHotKey</span><span>Command Line (Linux/Windows)</span><span>SLURM</span><span>Arduino IDE</span><span>ESP32</span><span>Microsoft Office</span><span>Google Workspace</span>
           </div>
         </div>
       </div>
@@ -155,6 +155,22 @@
             <a href="https://kn5225.github.io/prereqcheq/demo/demo-admin/" class="link-pill">Demo Admin →</a>
           </div>
         </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-meta">
+            <span class="project-type">Machine Learning</span>
+            <span class="project-year">Oct 2026 – Present</span>
+          </div>
+          <h3>Interlace</h3>
+          <p>A Transformer for Hindi-English code-switched translation, implemented from scratch in PyTorch with no pretrained translation model. Built scaled dot-product attention with boolean masking and a single-head attention module, validated against PyTorch's reference implementation and hand-worked examples, with tests confirming no future-token leakage.</p>
+          <div class="project-stack">
+            <span>Python</span><span>PyTorch</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/kn5225/interlace" class="link-pill">GitHub →</a>
+          </div>
+        </div>
+
         <div class="project-card reveal delay-1">
           <div class="project-meta">
             <span class="project-type">ML and Computer Vision</span>
@@ -169,20 +185,22 @@
             <a href="https://github.com/kn5225/Sortwise" class="link-pill">GitHub →</a>
           </div>
         </div>
+
         <div class="project-card reveal delay-2">
           <div class="project-meta">
             <span class="project-type">Hardware/Scripting</span>
             <span class="project-year">2026</span>
           </div>
           <h3>HandCast Gesture Controlled Interface</h3>
-          <p>An extensible hardware-in-the-loop interface translating real-time distance metrics from an HC-SR04 sensor into global OS macros and native application inputs. Features an ATmega328P microcontroller running an optimized C/C++ firmware pipeline with software-based signal filtering, communicating via UART serial to a Python SDK and AutoHotkey v2 automation layer.</p>
+          <p>An extensible hardware-in-the-loop interface translating real-time distance metrics from an HC-SR04 sensor into global OS macros and native application inputs. Features an ATmega328P microcontroller running a C++ firmware pipeline with software-based signal filtering, communicating via UART serial to a Python SDK and AutoHotkey v2 automation layer.</p>
           <div class="project-stack">
-            <span>AutoHotKey</span><span>Python</span><span>Arduino</span><span>Python/PySerial</span>
+            <span>C++</span><span>AutoHotKey</span><span>Python</span><span>Arduino</span><span>Python/PySerial</span>
           </div>
           <div class="project-links">
             <a href="https://github.com/kn5225/handcast" class="link-pill">GitHub →</a>
           </div>
         </div>
+
         <div class="project-card reveal delay-3 visible">
           <div class="project-meta">
             <span class="project-type">Command Line</span>
@@ -213,6 +231,7 @@
             <a href="https://github.com/kn5225/pokecli" class="link-pill">GitHub →</a>
           </div>
         </div>
+
         <div class="project-card reveal delay-4 visible">
           <div class="project-meta">
             <span class="project-type">Web Development</span>
@@ -247,15 +266,44 @@
             <div class="timeline-content">
               <div class="tl-header">
                 <div>
+                  <h3>Undergraduate Researcher</h3>
+                  <p class="tl-company">Formal Verification Research Group, UMass Amherst</p>
+                </div>
+                <span class="tl-date">September 2026 – Present</span>
+              </div>
+              <p class="tl-desc">Participating in a self-directed, faculty-mentored research group studying formal verification of arithmetic circuits<br>
+                Presenting weekly findings for feedback alongside two other undergraduate researchers</p>
+              <div class="tl-tags"><span>Formal Verification</span><span>Arithmetic Circuits</span></div>
+            </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="tl-header">
+                <div>
+                  <h3>Undergraduate Instructional Assistant</h3>
+                  <p class="tl-company">ECE 124: Introduction to Digital and Computer Systems, UMass Amherst</p>
+                </div>
+                <span class="tl-date">September 2026 – Present</span>
+              </div>
+              <p class="tl-desc">Holding weekly office hours and grading assignments and exams for an introductory digital and computer systems course</p>
+              <div class="tl-tags"><span>Digital Systems</span><span>Teaching</span></div>
+            </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="tl-header">
+                <div>
                   <h3>Undergraduate Research Assistant</h3>
                   <p class="tl-company">High-Dimensional Signal Processing Group</p>
                 </div>
-                <span class="tl-date">June 2026 — Present</span>
+                <span class="tl-date">June 2026 – Present</span>
               </div>
               <p class="tl-desc">Running Python experiments on hyperspectral image super-resolution algorithms using the Unity HPC cluster<br>
                 Extending published research for a journal submission on standardized benchmarking in remote sensing<br>
                 Working under Researcher Ritik Shah and Professor Marco Duarte</p>
-              <div class="tl-tags"><span>Python</span><span>Bash/Linux</span><span>Image Processing</span></div>
+              <div class="tl-tags"><span>Python</span><span>Bash/Linux</span><span>SLURM</span><span>Image Processing</span></div>
             </div>
         </div>
         <div class="timeline-item reveal">
@@ -266,14 +314,16 @@
                   <h3>Model UN Website Developer</h3>
                   <p class="tl-company">Shiv Nadar School</p>
                 </div>
-                <span class="tl-date">June 2024 — August 2024</span>
+                <span class="tl-date">June 2024 – August 2024</span>
               </div>
-              <p class="tl-desc">Redesigned Model UN conference website with HTML/CSS/JS, reducing page load time and modernizing UI and content for 150+ delegates.<br>
+              <p class="tl-desc">Updated the Model UN conference website's content and branding for 150+ delegates, adding articles and committee images and aligning the color scheme with school branding.<br>
               Simultaneously served as Deputy Director of Operations, coordinating logistics for the conference</p>
               <div class="tl-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
             </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
   <!-- CONTACT -->
   <section id="contact">
@@ -286,6 +336,7 @@
         <div class="social-links">
           <a href="https://www.linkedin.com/in/kanav-nagpal-578722283/" class="social-link">LinkedIn</a>
           <a href="https://github.com/kn5225" class="social-link">GitHub</a>
+          <a href="Kanav_Nagpal_CV.pdf" class="social-link" target="_blank" rel="noopener">CV</a>
         </div>
       </div>
     </div>
